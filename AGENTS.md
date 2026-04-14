@@ -14,11 +14,12 @@ At the start of every new session in this repository, read in order:
 
 ```
 promptrepo/
-├── [use-case]/           # decision-making/, problem-solving/, etc.
-│   ├── README.md         # Overview of frameworks in this category
-│   └── [framework]/      # Individual framework folders
-│       ├── README.md     # Framework explanation and prompts
-│       └── prompts.md    # Copy-paste ready prompts
+├── [use-case]/                   # decision-making/, coding/, problem-solving/, etc.
+│   ├── README.md                 # Overview of frameworks in this category
+│   └── [framework-or-layer]/     # Individual framework folders
+│       ├── README.md             # Explanation, source, and usage
+│       ├── SKILL.md              # Tagged structured version
+│       └── prompts.md            # Copy-paste ready prompts
 ```
 
 ## Priority
@@ -34,3 +35,5 @@ If instructions conflict:
 - Keep edits scoped to the target framework unless explicitly asked to span categories
 - When cross-category changes are needed, state the categories being changed before editing
 - Prompts should be copy-paste ready with clear placeholder indicators like `[situation]`
+- Preserve attribution when adapting third-party prompt layers or agent guidelines
+- Prefer dual-format entries: lightweight `prompts.md` plus tagged `SKILL.md`
