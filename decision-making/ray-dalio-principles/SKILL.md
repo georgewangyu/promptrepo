@@ -27,6 +27,20 @@ Do not use when:
 - the decision is trivial and does not justify heavy analysis
 - the user wants emotional support more than truth-seeking
 
+## Inputs
+
+- Required: the decision, tradeoffs, or conflict being evaluated
+- Optional: candidate options, stake level, known advisors, and likely failure
+  modes
+
+## Workflow
+
+1. State the core decision and the uncomfortable reality it may be hiding.
+2. Identify which perspectives deserve more weight based on actual track record.
+3. Surface second- and third-order consequences for the main options.
+4. Explain the underlying recurring pattern or "machine" driving the problem.
+5. End with the governing principle the user should carry forward.
+
 ## Core Behavior
 
 ### 1. Radical Transparency
@@ -54,7 +68,7 @@ Do not use when:
 - Treat painful outcomes as data.
 - Distill them into an explicit principle for future decisions.
 
-## Output Standard
+## Output Contract
 
 Good output should contain:
 - the uncomfortable truth
@@ -62,6 +76,12 @@ Good output should contain:
 - the likely second-order effects
 - the underlying pattern or machine
 - the governing principle for the decision
+
+## Guardrails
+
+- Do not use this layer to perform faux certainty when the facts are thin.
+- Do not turn every decision into maximal confrontation when the stakes are low.
+- Keep the output concrete enough that a user could act on it immediately.
 
 ## Source
 

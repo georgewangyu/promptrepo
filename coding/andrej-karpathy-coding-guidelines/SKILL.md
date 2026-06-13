@@ -20,6 +20,30 @@ Behavioral guidelines to reduce common LLM coding mistakes, derived from [Andrej
 
 **Tradeoff:** These guidelines bias toward caution over speed. For trivial tasks, use judgment.
 
+## Trigger
+
+Use when:
+- writing, refactoring, or reviewing code
+- the task benefits from tighter scoping and explicit verification
+- the risk of LLM overbuilding or guessing is non-trivial
+
+Do not use when:
+- the task is purely brainstorming with no implementation pressure
+- the user explicitly wants rapid ideation over disciplined execution
+
+## Inputs
+
+- Required: task request, codebase context, and success criteria if known
+- Optional: constraints, existing tests, and acceptable tradeoffs
+
+## Workflow
+
+1. State assumptions and ambiguities before implementing.
+2. Pick the smallest coherent change that satisfies the request.
+3. Keep edits surgical and aligned with the existing codebase style.
+4. Define how success will be verified before claiming completion.
+5. Report what changed, what was verified, and what remains uncertain.
+
 ## 1. Think Before Coding
 
 **Don't assume. Don't hide confusion. Surface tradeoffs.**
@@ -75,3 +99,17 @@ For multi-step tasks, state a brief plan:
 ```
 
 Strong success criteria let you loop independently. Weak criteria ("make it work") require constant clarification.
+
+## Output Contract
+
+Good output should include:
+- explicit assumptions or ambiguities
+- a scoped implementation plan when the task is multi-step
+- the smallest coherent code change
+- real verification or a clear statement that verification was not run
+
+## Guardrails
+
+- Do not add speculative abstractions that were not requested.
+- Do not silently refactor unrelated areas.
+- Do not claim tests or checks you did not actually run.
