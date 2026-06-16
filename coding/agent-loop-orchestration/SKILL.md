@@ -59,6 +59,17 @@ Do not use when:
 The goal should be concrete enough that progress can be judged. If the goal is
 vague, rewrite it before delegating work.
 
+### Let The Agent Draft The Goal
+
+When the user has a desired outcome but not a crisp execution contract, first
+ask the agent to write the `/goal` prompt it would want to run. The human
+should review the proposed goal, stop condition, verification gates, and
+approval gates before the loop starts.
+
+For multi-agent work, the parent agent should draft role-specific goals and
+output contracts for spawned agents. Do not make the human manually decompose
+every worker prompt when the agent has enough context to propose them.
+
 ### Verification Before Trust
 
 After meaningful changes, verify against reality: tests, builds, browser

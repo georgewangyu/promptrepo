@@ -24,6 +24,32 @@ Return:
 Bias toward the smallest loop that can produce reviewable progress. If this task is too small for a loop, say so and give the simpler prompt instead.
 ```
 
+## Agent-Written Goal Bootstrap
+
+```text
+Before starting the work, write the `/goal` prompt you would want to execute.
+
+Desired outcome:
+[desired outcome]
+
+Context:
+[repo/project/context]
+
+Constraints:
+[constraints, approvals, timeline, risk tolerance]
+
+Return:
+1. The proposed `/goal` prompt in copy-paste-ready form.
+2. The stop condition that proves the goal is complete.
+3. The verification gates the agent should use while working.
+4. The context files or docs that should be loaded before execution.
+5. The approval gates for commits, pushes, publishing, deletion, external messages, or other irreversible actions.
+6. If subagents would help, write one goal prompt for each subagent with its owner role, input context, output contract, and what it must not change.
+7. The main risks or ambiguities a human should correct before launching the goal.
+
+Do not start executing yet. First make the goal good enough that a separate agent could run it without needing constant steering.
+```
+
 ## Peter-Style Refactor Goal
 
 ```text
