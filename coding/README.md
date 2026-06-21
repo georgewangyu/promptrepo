@@ -8,6 +8,7 @@ Prompt layers for coding agents, code review behavior, implementation discipline
 |-----------|--------|----------|
 | [Andrej Karpathy Coding Guidelines](andrej-karpathy-coding-guidelines/) | Andrej Karpathy observations, adapted via `forrestchang/andrej-karpathy-skills` | Coding-agent behavior, reducing overengineering, cleaner diffs, goal-driven implementation |
 | [Agent Loop Orchestration](agent-loop-orchestration/) | Peter Steinberger, Boris Cherny, Mitchell Hashimoto X posts and replies | Long-running coding-agent loops, `/goal` prompts, verification gates, subagent orchestration, cost-aware autonomy |
+| [Zara-Inspired HTML Artifact Layer](zara-inspired-html-artifact/) | Zara Zhang's `codebase-to-course` and `frontend-slides` artifact patterns | Static HTML repo onboarding, architecture walkthroughs, agent eval reports, and polished technical proof objects |
 
 ## Core Concepts
 
@@ -27,6 +28,11 @@ Turn vague implementation requests into explicit success criteria with verificat
 For longer tasks, design the loop around goals, verification gates, context
 isolation, cost limits, and human approval instead of repeatedly prompting the
 agent by hand.
+
+### Polished Technical Artifacts
+Turn code understanding, repo maps, eval results, and implementation retros into
+beautiful static HTML artifacts with exact snippets, visual rhythm, and
+plain-English interpretation.
 
 ## When to Use These
 
