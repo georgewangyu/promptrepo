@@ -40,4 +40,3 @@ artifact with a real design language:
 
 This PromptRepo layer is an adaptation of public design and workflow patterns,
 not a verbatim copy of Zara's files.
-

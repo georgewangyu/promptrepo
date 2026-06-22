@@ -46,4 +46,3 @@ Inspired by Zara Zhang's public work:
 
 - <https://github.com/zarazhangrui/codebase-to-course>
 - <https://github.com/zarazhangrui/frontend-slides>
-

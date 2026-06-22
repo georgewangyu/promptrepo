@@ -63,4 +63,3 @@ Design constraints:
 Source material:
 [paste repo scan, README, scripts, tree, and key snippets here]
 ```
-
