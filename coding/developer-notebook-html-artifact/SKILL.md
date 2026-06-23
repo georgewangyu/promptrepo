@@ -1,9 +1,9 @@
 ---
-name: zara-inspired-html-artifact
-description: "Create polished static HTML technical artifacts with a warm developer-notebook design language, exact code snippets, plain-English explanations, visual structure, and practical next actions. Use for repo onboarding, architecture walkthroughs, agent eval reports, implementation retrospectives, and codebase-to-course style outputs."
+name: developer-notebook-html-artifact
+description: "Create polished static HTML technical artifacts with a warm developer-notebook design language, exact code snippets, plain-English explanations, visual structure, and practical next actions. Use for repo onboarding, architecture walkthroughs, agent eval reports, implementation retrospectives, and codebase walkthrough outputs."
 ---
 
-# Zara-Inspired HTML Artifact
+# Developer Notebook HTML Artifact
 
 Use this skill when the user wants a technical explanation, repo walkthrough,
 agent onboarding packet, eval report, or implementation retrospective to become
@@ -31,18 +31,10 @@ a polished static HTML artifact.
 
 ## Guardrails
 
-- Do not copy Zara Zhang's files verbatim unless the user is intentionally using
-  her open-source repo under its license.
-- Treat the source as inspiration for taste and artifact shape, not as a brand
-  clone.
+- Treat this as a house design layer, not a one-off decorative pass.
+- Do not copy another project's files, brand, or exact visual identity unless
+  the user explicitly asks to use licensed source material.
 - Do not hide uncertainty. If repo understanding is heuristic, label it that
   way.
 - If the artifact may guide code changes, include verification commands and
   human-review boundaries.
-
-## Source Attribution
-
-Inspired by Zara Zhang's public work:
-
-- <https://github.com/zarazhangrui/codebase-to-course>
-- <https://github.com/zarazhangrui/frontend-slides>

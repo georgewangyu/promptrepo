@@ -1,4 +1,4 @@
-# Zara-Inspired HTML Artifact Prompts
+# Developer Notebook HTML Artifact Prompts
 
 ## General Artifact Prompt
 
