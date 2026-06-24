@@ -1,13 +1,13 @@
 ---
 name: developer-notebook-html-artifact
-description: "Create polished static HTML technical artifacts with a warm developer-notebook design language, exact code snippets, plain-English explanations, visual structure, and practical next actions. Use for repo onboarding, architecture walkthroughs, agent eval reports, implementation retrospectives, and codebase walkthrough outputs."
+description: "Create polished static HTML technical artifacts with a warm developer-notebook design language, exact code snippets, plain-English explanations, visual structure, and practical next actions. Use for repo visualization, architecture walkthroughs, agent eval reports, implementation retrospectives, and codebase walkthrough outputs."
 ---
 
 # Developer Notebook HTML Artifact
 
-Use this skill when the user wants a technical explanation, repo walkthrough,
-agent onboarding packet, eval report, or implementation retrospective to become
-a polished static HTML artifact.
+Use this skill when the user wants a technical explanation, repo visualization,
+repo walkthrough, eval report, or implementation retrospective to become a
+polished static HTML artifact.
 
 ## Design Language
 

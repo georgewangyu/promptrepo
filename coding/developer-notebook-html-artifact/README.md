@@ -11,7 +11,7 @@ warm typography, visual rhythm, diagrams, and interactive teaching blocks.
 
 ## When To Use
 
-- repo onboarding packets
+- repo visualization reports
 - architecture walkthroughs
 - agent eval reports
 - implementation retrospectives

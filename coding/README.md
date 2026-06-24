@@ -8,7 +8,7 @@ Prompt layers for coding agents, code review behavior, implementation discipline
 |-----------|--------|----------|
 | [Andrej Karpathy Coding Guidelines](andrej-karpathy-coding-guidelines/) | Andrej Karpathy observations, adapted via `forrestchang/andrej-karpathy-skills` | Coding-agent behavior, reducing overengineering, cleaner diffs, goal-driven implementation |
 | [Agent Loop Orchestration](agent-loop-orchestration/) | Peter Steinberger, Boris Cherny, Mitchell Hashimoto X posts and replies | Long-running coding-agent loops, `/goal` prompts, verification gates, subagent orchestration, cost-aware autonomy |
-| [Developer Notebook HTML Artifact Layer](developer-notebook-html-artifact/) | Internal artifact design layer | Static HTML repo onboarding, architecture walkthroughs, agent eval reports, and polished technical proof objects |
+| [Developer Notebook HTML Artifact Layer](developer-notebook-html-artifact/) | Internal artifact design layer | Static HTML repo visualization, architecture walkthroughs, agent eval reports, and polished technical proof objects |
 
 ## Core Concepts
 

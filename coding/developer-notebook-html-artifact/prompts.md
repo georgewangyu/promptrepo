@@ -35,10 +35,10 @@ Input:
 [paste source notes, repo facts, code snippets, or analysis here]
 ```
 
-## Repo Onboarding Prompt
+## Repo Visualization Prompt
 
 ```text
-Turn [repo name/path] into a repo-to-agent-onboarding HTML artifact.
+Turn [repo name/path] into a repo visualization HTML artifact.
 
 Audience:
 - a coding agent that needs to work safely in this repo
