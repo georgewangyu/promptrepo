@@ -1,6 +1,14 @@
 ---
 name: developer-notebook-html-artifact
 description: "Create polished static HTML technical artifacts with a warm developer-notebook design language, exact code snippets, plain-English explanations, visual structure, and practical next actions. Use for repo visualization, architecture walkthroughs, agent eval reports, implementation retrospectives, and codebase walkthrough outputs."
+memory_tags:
+  - domain:documentation
+  - workflow:html-artifact
+  - skill_role:generator
+  - repo_boundary:tools
+  - inputs:technical-context
+  - outputs:html-artifact
+  - risk:low
 ---
 
 # Developer Notebook HTML Artifact
